@@ -6,12 +6,15 @@
 //
 
 import UIKit
+import sampleStaticLibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        sampleStaticLibrary().printNameInStaticLibarary(name: "Ravneet")
+        AnotherSampleClass().printNameInAnotherSampleClass(name: "Arora")
     }
 
 
